@@ -1,0 +1,596 @@
+@charset "UTF-8";
+.gridrowfull {
+  width: 100%;
+}
+
+.gridrow {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 750px) {
+  .gridrow {
+    width: 90%;
+  }
+}
+
+.gridrowfull, .gridrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gridrowfull .col, .gridrow .col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .col-1, .gridrow .col-1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 8.33333%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-1, .gridrow .offset-1 {
+  margin-left: 8.33333%;
+}
+
+.gridrowfull .col-2, .gridrow .col-2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 16.66667%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-2, .gridrow .offset-2 {
+  margin-left: 16.66667%;
+}
+
+.gridrowfull .col-3, .gridrow .col-3 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 25%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-3, .gridrow .offset-3 {
+  margin-left: 25%;
+}
+
+.gridrowfull .col-4, .gridrow .col-4 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 33.33333%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-4, .gridrow .offset-4 {
+  margin-left: 33.33333%;
+}
+
+.gridrowfull .col-5, .gridrow .col-5 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 41.66667%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-5, .gridrow .offset-5 {
+  margin-left: 41.66667%;
+}
+
+.gridrowfull .col-6, .gridrow .col-6 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-6, .gridrow .offset-6 {
+  margin-left: 50%;
+}
+
+.gridrowfull .col-7, .gridrow .col-7 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 58.33333%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-7, .gridrow .offset-7 {
+  margin-left: 58.33333%;
+}
+
+.gridrowfull .col-8, .gridrow .col-8 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 66.66667%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-8, .gridrow .offset-8 {
+  margin-left: 66.66667%;
+}
+
+.gridrowfull .col-9, .gridrow .col-9 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 75%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-9, .gridrow .offset-9 {
+  margin-left: 75%;
+}
+
+.gridrowfull .col-10, .gridrow .col-10 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 83.33333%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-10, .gridrow .offset-10 {
+  margin-left: 83.33333%;
+}
+
+.gridrowfull .col-11, .gridrow .col-11 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 91.66667%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-11, .gridrow .offset-11 {
+  margin-left: 91.66667%;
+}
+
+.gridrowfull .col-12, .gridrow .col-12 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gridrowfull .offset-12, .gridrow .offset-12 {
+  margin-left: 100%;
+}
+
+@media (min-width: 750px) {
+  .gridrowfull .col-t, .gridrow .col-t {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t, .gridrow .offset-t {
+    margin-left: 0;
+  }
+  .gridrowfull .col-t-1, .gridrow .col-t-1 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 8.33333%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-1, .gridrow .offset-t-1 {
+    margin-left: 8.33333%;
+  }
+  .gridrowfull .col-t-2, .gridrow .col-t-2 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 16.66667%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-2, .gridrow .offset-t-2 {
+    margin-left: 16.66667%;
+  }
+  .gridrowfull .col-t-3, .gridrow .col-t-3 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 25%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-3, .gridrow .offset-t-3 {
+    margin-left: 25%;
+  }
+  .gridrowfull .col-t-4, .gridrow .col-t-4 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 33.33333%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-4, .gridrow .offset-t-4 {
+    margin-left: 33.33333%;
+  }
+  .gridrowfull .col-t-5, .gridrow .col-t-5 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 41.66667%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-5, .gridrow .offset-t-5 {
+    margin-left: 41.66667%;
+  }
+  .gridrowfull .col-t-6, .gridrow .col-t-6 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 50%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-6, .gridrow .offset-t-6 {
+    margin-left: 50%;
+  }
+  .gridrowfull .col-t-7, .gridrow .col-t-7 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 58.33333%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-7, .gridrow .offset-t-7 {
+    margin-left: 58.33333%;
+  }
+  .gridrowfull .col-t-8, .gridrow .col-t-8 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 66.66667%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-8, .gridrow .offset-t-8 {
+    margin-left: 66.66667%;
+  }
+  .gridrowfull .col-t-9, .gridrow .col-t-9 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 75%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-9, .gridrow .offset-t-9 {
+    margin-left: 75%;
+  }
+  .gridrowfull .col-t-10, .gridrow .col-t-10 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 83.33333%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-10, .gridrow .offset-t-10 {
+    margin-left: 83.33333%;
+  }
+  .gridrowfull .col-t-11, .gridrow .col-t-11 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 91.66667%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-11, .gridrow .offset-t-11 {
+    margin-left: 91.66667%;
+  }
+  .gridrowfull .col-t-12, .gridrow .col-t-12 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .gridrowfull .offset-t-12, .gridrow .offset-t-12 {
+    margin-left: 100%;
+  }
+}
+
+.gridrowfull.nogutter .col, .gridrowfull.nogutter .col-t, .gridrow.nogutter .col, .gridrow.nogutter .col-t {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-1, .gridrowfull.nogutter .col-t-1, .gridrow.nogutter .col-1, .gridrow.nogutter .col-t-1 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-2, .gridrowfull.nogutter .col-t-2, .gridrow.nogutter .col-2, .gridrow.nogutter .col-t-2 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-3, .gridrowfull.nogutter .col-t-3, .gridrow.nogutter .col-3, .gridrow.nogutter .col-t-3 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-4, .gridrowfull.nogutter .col-t-4, .gridrow.nogutter .col-4, .gridrow.nogutter .col-t-4 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-5, .gridrowfull.nogutter .col-t-5, .gridrow.nogutter .col-5, .gridrow.nogutter .col-t-5 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-6, .gridrowfull.nogutter .col-t-6, .gridrow.nogutter .col-6, .gridrow.nogutter .col-t-6 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-7, .gridrowfull.nogutter .col-t-7, .gridrow.nogutter .col-7, .gridrow.nogutter .col-t-7 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-8, .gridrowfull.nogutter .col-t-8, .gridrow.nogutter .col-8, .gridrow.nogutter .col-t-8 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-9, .gridrowfull.nogutter .col-t-9, .gridrow.nogutter .col-9, .gridrow.nogutter .col-t-9 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-10, .gridrowfull.nogutter .col-t-10, .gridrow.nogutter .col-10, .gridrow.nogutter .col-t-10 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-11, .gridrowfull.nogutter .col-t-11, .gridrow.nogutter .col-11, .gridrow.nogutter .col-t-11 {
+  padding: 0;
+}
+
+.gridrowfull.nogutter .col-12, .gridrowfull.nogutter .col-t-12, .gridrow.nogutter .col-12, .gridrow.nogutter .col-t-12 {
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'myicons';
+  src: url("../font/myicons.eot?25143958");
+  src: url("../font/myicons.eot?25143958#iefix") format("embedded-opentype"), url("../font/myicons.woff2?25143958") format("woff2"), url("../font/myicons.woff?25143958") format("woff"), url("../font/myicons.ttf?25143958") format("truetype"), url("../font/myicons.svg?25143958#myicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'myicons';
+      src: url('../font/myicons.svg?25143958#myicons') format('svg');
+    }
+  }
+  */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "myicons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-calendar-check-line-1:before {
+  content: '\e800';
+}
+
+/* '' */
+.icon-home-2-line-1:before {
+  content: '\e801';
+}
+
+/* '' */
+.icon-map-2-line-1:before {
+  content: '\e802';
+}
+
+/* '' */
+.icon-user-3-line-1:before {
+  content: '\e803';
+}
+
+/* '' */
+.icon-qr:before {
+  content: '\e804';
+}
+
+/* '' */
+.icon-lupa:before {
+  content: '\e805';
+}
+
+/* '' */
+@font-face {
+  font-family: 'Regular_Italic';
+  src: url("Regular-RegularItalic.eot");
+  src: url("Regular-RegularItalic.eot?#iefix") format("embedded-opentype"), url("Regular-RegularItalic.woff2") format("woff2"), url("Regular-RegularItalic.woff") format("woff"), url("Regular-RegularItalic.svg#Regular-RegularItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Regular Extrabold';
+  src: url("Regular-Extrabold.eot");
+  src: url("Regular-Extrabold.eot?#iefix") format("embedded-opentype"), url("Regular-Extrabold.woff2") format("woff2"), url("Regular-Extrabold.woff") format("woff"), url("Regular-Extrabold.svg#Regular-Extrabold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Regular Black';
+  src: url("Regular-Black.eot");
+  src: url("Regular-Black.eot?#iefix") format("embedded-opentype"), url("Regular-Black.woff2") format("woff2"), url("Regular-Black.woff") format("woff"), url("Regular-Black.svg#Regular-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Regular Regular';
+  src: url("Regular-Regular.eot");
+  src: url("Regular-Regular.eot?#iefix") format("embedded-opentype"), url("Regular-Regular.woff2") format("woff2"), url("Regular-Regular.woff") format("woff"), url("Regular-Regular.svg#Regular-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Regular Bold';
+  src: url("Regular-Bold.eot");
+  src: url("Regular-Bold.eot?#iefix") format("embedded-opentype"), url("Regular-Bold.woff2") format("woff2"), url("Regular-Bold.woff") format("woff"), url("Regular-Bold.svg#Regular-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Regular Medium';
+  src: url("Regular-Medium.eot");
+  src: url("Regular-Medium.eot?#iefix") format("embedded-opentype"), url("Regular-Medium.woff2") format("woff2"), url("Regular-Medium.woff") format("woff"), url("Regular-Medium.svg#Regular-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Regular Medium Italic';
+  src: url("Regular-MediumItalic.eot");
+  src: url("Regular-MediumItalic.eot?#iefix") format("embedded-opentype"), url("Regular-MediumItalic.woff2") format("woff2"), url("Regular-MediumItalic.woff") format("woff"), url("Regular-MediumItalic.svg#Regular-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Regular Bold Italic';
+  src: url("Regular-BoldItalic.eot");
+  src: url("Regular-BoldItalic.eot?#iefix") format("embedded-opentype"), url("Regular-BoldItalic.woff2") format("woff2"), url("Regular-BoldItalic.woff") format("woff"), url("Regular-BoldItalic.svg#Regular-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Regular_Italic';
+  margin: 0;
+  background-color: #f6f8f8;
+}
+
+#nav {
+  background-color: #1AA6CB;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-logo {
+  position: absolute;
+  bottom: 8px;
+}
+
+.search-div {
+  position: relative;
+  height: 100px;
+}
+
+.nav-search {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 40px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  padding: 8px;
+}
+
+.nav-search {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+input[type=text] {
+  color: #A6AAB1;
+  padding: 0 38px 0 40px;
+}
+
+.icon-lupa {
+  position: absolute;
+  color: #A6AAB1;
+  left: 8px;
+  bottom: 18px;
+  font-size: 16px;
+}
+
+.icon-qr {
+  position: absolute;
+  color: #373A42;
+  right: 8px;
+  bottom: 18px;
+  font-size: 16px;
+}
+
+#footer {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  height: 88px;
+}
+
+.footer-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.footer-icon {
+  position: absolute;
+  top: 18px;
+  font-size: 24px;
+  color: #8D8F93;
+}
+
+.main {
+  margin-bottom: 88px;
+}
+/*# sourceMappingURL=main.css.map */

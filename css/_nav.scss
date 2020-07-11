@@ -1,0 +1,52 @@
+#nav {
+    background-color: $primary-blue;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    position: absolute;
+    bottom: 8px;
+}
+
+.search-div {
+    position: relative;
+    height: 100px;
+}
+
+.nav-search {
+    box-sizing: border-box;
+    height: 40px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    padding: 8px;
+}
+
+.nav-search {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input[type=text] {
+    color: $basic-darker-gray;
+    padding: 0 38px 0 40px;
+}
+
+.icon-lupa {
+    position: absolute;
+    color: $basic-darker-gray;
+    left: 8px;
+    bottom: 18px;
+    font-size: 16px;
+}
+
+.icon-qr {
+    position: absolute;
+     color: $basic-black;
+     right: 8px;
+     bottom: 18px;
+     font-size: 16px;
+ }
